@@ -2,7 +2,7 @@
 
 import os
 from LogPercentiles.libs.log_percentiles.common.exception import InvalidRawLogException
-from LogPercentiles.libs.log_percentiles.source_provider.source_provider import SourceProvider
+from LogPercentiles.libs.log_percentiles.source_provider.base_source_provider import SourceProvider
 
 class LogDirectorySourceProvider(SourceProvider):
     '''

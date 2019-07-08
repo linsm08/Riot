@@ -2,7 +2,7 @@
 
 from LogPercentiles.libs.log_percentiles.common.log import Log
 from LogPercentiles.libs.log_percentiles.common.exception import InvalidRawLogException
-from LogPercentiles.libs.log_percentiles.source_provider.raw_log_parser.raw_log_parser import RawLogParser
+from LogPercentiles.libs.log_percentiles.source_provider.base_raw_log_parser import RawLogParser
 
 class LogFileRawLogParser(RawLogParser):
     def build_log(self, raw_log):
